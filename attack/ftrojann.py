@@ -45,7 +45,7 @@ class Ftrojann(BadNet):
         parser.add_argument(
             "--bd_yaml_path",
             type=str,
-            default="./config/attack/ftrojann/default.yaml",
+            default="config/attack/ftrojannn/default.yaml",
             help="path for yaml file provide additional default attributes",
         )
         return parser
